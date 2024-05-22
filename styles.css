@@ -100,13 +100,22 @@ nav ul li a:hover{
     font-style: normal; 
 }
 #sombra{
-background-color: #A44A26;
+background-color: #C46139;
 color: #ffffff;
 height: 70vh;
 width: 50vh;
 border-radius: 1.2vh;
 clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
-display: flex;
-justify-content: center;
-align-items: center;
+
+}
+
+.escrita{
+    margin-bottom: 10%;
+    padding-top: 30%;
+    margin-left: 33%;
+}
+
+.poa{
+    margin-left: 18%;
+
 }
