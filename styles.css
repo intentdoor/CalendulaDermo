@@ -83,6 +83,7 @@ nav ul li a:hover{
     margin-top: 4%;
     margin-left: 5.4%;
     margin-right: 5.4%;
+    display: flex;
 }
 
 #login{
@@ -99,23 +100,82 @@ nav ul li a:hover{
     font-weight: weight;
     font-style: normal; 
 }
+
+
+
+
 #sombra{
+
 background-color: #C46139;
 color: #ffffff;
 height: 70vh;
-width: 50vh;
+width: 30%;
 border-radius: 1.2vh;
 clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
 
 }
 
 .escrita{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     padding-top: 30%;
-    margin-left: 33%;
+    margin-left: 21%;
+    font-size: clamp(3.5%, 2.2vw, 9vh);
+    font-family: "Urbanist", sans-serif;
+    letter-spacing: 2px;
+
 }
 
 .poa{
-    margin-left: 18%;
+    margin-left: 15%;
+    
+    width: 50%;
+    height: 40%;
+}
 
+#Login input {
+    background-color: #ffffff;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 100vh;
+  border-radius: 1rem;
+  color: #C46139;
+  box-shadow: 0 0.4rem #dfd9d9;
+  cursor: pointer;
+}
+
+#Login input:focus {
+    outline-color: #c5c5c5;
+}
+
+#Login {
+    margin-top: 10%;
+    font-family: "Urbanist", sans-serif;
+}
+
+#Senha input {
+    background-color: #ffffff;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 100vh;
+  border-radius: 1rem;
+  color: #C46139;
+  box-shadow: 0 0.4rem #dfd9d9;
+  cursor: pointer;
+}
+
+#Senha input:focus {
+    outline-color: #c5c5c5;
+}
+
+
+#Senha {
+    font-family: "Urbanist", sans-serif;
+}
+
+.caixas{
+    /* margin-left: 5%; */
+    display: block;
+    align-items: center;
 }
